@@ -44,7 +44,7 @@ Run the following commands in order to install ZusyFramework.
 
 **Step 3 — Run**
 
-    python3 ZusyFramework
+    python3 ZusyFramework.py
 
 ## Help
 
