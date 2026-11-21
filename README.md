@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://zusyframework.netlify.app/ZusyFramework.png" alt="ZusyFramework Logo" width="300"/>
+  <img src="https://zusyframework.netlify.app/ZusyFramework.png" alt="ZusyFramework Logo" width="250"/>
 </p>
 
 <h1 align="center">ZusyFramework</h1>
@@ -9,6 +9,10 @@
   <img src="https://img.shields.io/badge/platform-Windows-red" alt="Windows"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License"/>
   <img src="https://img.shields.io/badge/type-Pentesting%20Framework-orange" alt="Pentesting"/>
+</p>
+
+<p align="center">
+  <img src="https://zusyframework.netlify.app/Preview.png" alt="ZusyFramework Preview" width="500"/>
 </p>
 
 ## About
@@ -50,7 +54,7 @@ Type `help` inside the ZusyFramework terminal to list all available modules, pay
     ╚═▶ help
 
 <p align="center">
-  <img src="https://zusyframework.netlify.app/Help.png" alt="ZusyFramework Help" width="800"/>
+  <img src="https://zusyframework.netlify.app/Help.png" alt="ZusyFramework Help" width="450"/>
 </p>
 
 Core commands include `use` (select a module), `set` (configure options), `run` / `exploit` (execute), `sessions` (manage active connections), and `chat` (team communication).
@@ -63,7 +67,7 @@ BatDropper is a batch dropper module for targeting Windows systems. Use this mod
     ╚═▶ use exploit/windows/batdropper
 
 <p align="center">
-  <img src="https://zusyframework.netlify.app/Bat.png" alt="BatDropper Module" width="800"/>
+  <img src="https://zusyframework.netlify.app/Bat.png" alt="BatDropper Module" width="450"/>
 </p>
 
 Once the module is selected, configure the required options then generate the `.bat` dropper file. After the file is ready, use `exploit` or `run` to activate the listener. When the target user executes the `.bat` file, a reverse shell connection is established and full terminal control is handed over to you. BatDropper enables persistent sessions on the target system with remote command execution and file transfer capabilities.
@@ -75,20 +79,11 @@ ZusyFramework lets you create encrypted terminal-based chat rooms to communicate
     ╔══(zusy@fsociety)──(no module)
     ╚═▶ chat create
 
-<p align="center">
-  <img src="https://zusyframework.netlify.app/Chat.png" alt="Chat" width="800"/>
-</p>
-<p align="center">
-  <img src="https://zusyframework.netlify.app/ChatRoom.png" alt="Chat Room" width="800"/>
-</p>
+| Chat | Chat Room |
+|:---:|:---:|
+| <img src="https://zusyframework.netlify.app/Chat.png" alt="Chat" width="400"/> | <img src="https://zusyframework.netlify.app/ChatRoom.png" alt="Chat Room" width="400"/> |
 
 Two modes: You can expose your chat room publicly via **bore.pub** so teammates outside your network can join, or create a local LAN room for private team communication. All messages are sent through the terminal and leave no traces behind.
-
-## Preview
-
-<p align="center">
-  <img src="https://zusyframework.netlify.app/Preview.png" alt="ZusyFramework Preview" width="800"/>
-</p>
 
 ## Disclaimer
 
